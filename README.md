@@ -1,43 +1,75 @@
-# Fyle Frontend Challenge
+# Angular GitHub User Viewer
 
-## Who is this for?
+This is an Angular application that allows users to view information about a GitHub user, including their repositories and the languages used in those repositories.
 
-This challenge is meant for candidates who wish to intern at Fyle and work with our engineering team. The candidate should be able to commit to at least 6 months of dedicated time for internship.
+## What I've Done in This Project
 
-## Why work at Fyle?
+- Developed an Angular application that fetches and displays GitHub user information and repositories.
+- Implemented unit tests for the application using Angular's testing tools and Jasmine.
+- Created a responsive and user-friendly user interface for viewing GitHub data.
 
-Fyle is a fast-growing Expense Management SaaS product. We are ~40 strong engineering team at the moment. 
+## Assumptions Made
 
-We are an extremely transparent organization. Check out our [careers page](https://careers.fylehq.com) that will give you a glimpse of what it is like to work at Fyle. Also, check out our Glassdoor reviews [here](https://www.glassdoor.co.in/Reviews/Fyle-Reviews-E1723235.htm). You can read stories from our teammates [here](https://stories.fylehq.com).
+- This project does not require a GitHub API key.
+- ### Features and Functionality
 
-## Challenge outline
+    - The topics are presented in a scrollable format.
+    - A search bar is provided at the top of the page, enabling users to input a GitHub username.
+    - By default, the page loads with the data of the GitHub user "johnpapa".
+    - The repository descriptions are designed to be scrollable vertically
 
-This challenge involves implementing application using github api. 
+## Table of Contents
 
-The services that you need to use are already implemented - check out ApiService.
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Running the Tests](#running-the-tests)
 
-You can see details of this challenge [here](https://fyleuniverse.notion.site/fyleuniverse/Fyle-Frontend-development-challenge-cb5085e5e0864e769e7b98c694400aaa)
+## Getting Started
 
-__Note__ - This challenge is in angular. We work on angular frameworks & after you join we expect the same from you. Hence it is required to complete this assignement in angular itself.
+### Prerequisites
 
-## What happens next?
+Before you begin, make sure you have the following tools installed:
 
-You will hear back within 48 hours from us via email.
+- [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/)
+- [Angular CLI](https://angular.io/cli)
 
-## Installation
+### Installation
 
-1. Fork this repository to your github account.
-2. Clone the forked repository and proceed with steps mentioned below.
+1. **Clone the repository:**
 
-### Install requirements
-* Install angular cli [Ref](https://angular.io/cli)
-* `npm install` in this repository 
+    ```bash
+    git clone https://github.com/yourusername/your-repo.git
+    ```
+2. **Navigate to the project directory:**
 
-## Development server
+    ```bash
+    cd your-repo
+    ```
 
-Run `ng serve` for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
+3. **Install the project dependencies:**
 
-## Further help
+    ```bash
+    npm install
+    ```
 
-Visit the [Angular Documentation](https://angular.io/guide/styleguide) to learn more.
-Styling is to be strictly done with [Tailwind](https://tailwindcss.com/docs/installation).
+## Usage
+
+1. **Start the development server:**
+
+    ```bash
+    ng serve
+    ```
+
+2. **Open your web browser and go to [http://localhost:4200/](http://localhost:4200/) to view the application.**
+
+3. **Enter a GitHub username in the input field to view user details, repositories, and their associated languages.**
+
+## Running the Tests
+
+To run the unit tests for this project, use the following command:
+
+```bash
+ng test
+```
