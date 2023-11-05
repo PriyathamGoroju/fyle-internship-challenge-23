@@ -17,6 +17,10 @@ This is an Angular application that allows users to view information about a Git
     - A search bar is provided at the top of the page, enabling users to input a GitHub username.
     - By default, the page loads with the data of the GitHub user "johnpapa".
     - The repository descriptions are designed to be scrollable vertically
+- ### Pagination and Data Fetching
+
+    - Each page of the application displays up to 10 repositories.
+    - To optimize performance, repository description and topics are fetched only for the repositories currently displayed on the page.
 
 ## Table of Contents
 
